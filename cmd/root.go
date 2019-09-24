@@ -9,10 +9,6 @@ import (
 
 // https://github.com/spf13/cobra#getting-started
 
-func init() {
-	rootCmd.AddCommand(barkCmd)
-}
-
 var rootCmd = &cobra.Command{
 	Use:   "husky",
 	Short: "Husky helps you get around in the snow",
