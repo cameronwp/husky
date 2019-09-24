@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cameronwp/husky/cmd/sled"
 	"github.com/spf13/cobra"
 )
 
@@ -12,7 +11,6 @@ import (
 
 func init() {
 	rootCmd.AddCommand(barkCmd)
-	rootCmd.AddCommand(sled.Cmd)
 }
 
 var rootCmd = &cobra.Command{
